@@ -1,0 +1,10 @@
+nav {
+	@extend .uk-navbar;
+}
+
+.nav {
+	@extend .uk-navbar-nav;
+}
+.brand{
+	@extend .uk-navbar-brand;
+}
