@@ -1,0 +1,614 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"term",
+				"termchildren"
+			],
+			[
+				"uk-panel",
+				"uk-panel-box"
+			],
+			[
+				"whi",
+				"white-space: "
+			],
+			[
+				"primary",
+				"brand-primary"
+			],
+			[
+				"orange-c",
+				"orange-crush"
+			],
+			[
+				"orange-cr",
+				"orange-crush-lite"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-align: "
+			],
+			[
+				"margi",
+				"margin-top: "
+			],
+			[
+				"margin",
+				"margin-bottom: "
+			],
+			[
+				"box",
+				"border-box"
+			],
+			[
+				"al",
+				"alphabprint"
+			],
+			[
+				"get_the_t",
+				"get_the_title"
+			],
+			[
+				"ba",
+				"background: "
+			],
+			[
+				"bak",
+				"background-position: "
+			],
+			[
+				"ma",
+				"margin-bottom: "
+			],
+			[
+				"marg",
+				"margin-top: "
+			],
+			[
+				"tex",
+				"text-decoration: "
+			],
+			[
+				"font",
+				"font-size: "
+			],
+			[
+				"mar",
+				"margin-right: "
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"entr",
+				"entry-title"
+			],
+			[
+				"the",
+				"theyear"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"else",
+				"elseif	elseif …"
+			],
+			[
+				"home",
+				"homewidget"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"upw",
+				"upw_query"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"wi",
+				"widget"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"featured",
+				"featured_idea"
+			],
+			[
+				"pub",
+				"publication_type"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bo",
+				"border-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 826,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/elvis/Sites/pathology/content/mu-plugins/cpt-document.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/page-header.php",
+		"/Users/elvis/Sites/pathology/content/mu-plugins/cpt-people.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/index.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/head.php",
+		"/Users/elvis/Sites/pathology/content/mu-plugins/cpt-staff-news.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/styles/common/_variables.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/partial-documents.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/styles/ie/_ie.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/styles/common/_media-query.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/content-page.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/functions.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/partial-tabs.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/content-frontpage.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/partial-people.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/partial-atoz.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/partial-postgrid.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/content-single-person.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/content-single.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/content.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/styles/common/_global.scss",
+		"/Users/elvis/Sites/pathology/content/mu-plugins/cpt-department.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/styles/main.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/bower.json",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/styles/layouts/_header.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/header.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/lib/setup.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/scripts/main.js",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/base.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/sidebar.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/footer.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/styles/layouts/_footer.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/styles/components/_grid.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/styles/common/_nathan-global.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/content-single-document.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/styles/components/_comments.scss",
+		"/Users/elvis/Sites/pathology/content/mu-plugins/cpt-download.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/partial-staffnews.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/content-single-download.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/styles/layouts/_pages.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/bower_components/uikit/scss/core/panel.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/entry-meta.php",
+		"/Users/elvis/Sites/pathology/content/mu-plugins/cpt-staff-jargonbuster.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/bower_components/uikit/scss/core/grid.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/assets/manifest.json",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/page.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/templates/atoz.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/.gitignore",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/404.php",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/gulpfile.js",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/bower_components/uikit/scss/core/navbar.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/bower_components/uikit/scss/core/nav.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/style.css",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/bower_components/uikit/scss/core/close.scss",
+		"/Users/elvis/Sites/pathology/content/themes/tppsage/.bowerrc",
+		"/Users/elvis/Sites/citizend/wp-content/themes/citizensage/lib/wrapper.php",
+		"/Users/elvis/Sites/citizend/wp-content/themes/citizensage/citizensage.sublime-project",
+		"/Users/elvis/Sites/citizend/wp-content/themes/citizensage/assets/manifest.json",
+		"/Users/cat/Sites/gameguru/wp-content/themes/gamesage/templates/content-search.php",
+		"/Users/cat/Sites/gameguru/wp-content/themes/gamesage/lib/titles.php",
+		"/Users/elvis/Sites/gameguru/wp-content/themes/gamesage/assets/manifest.json",
+		"/Users/elvis/Sites/gameguru/wp-content/themes/gamesage/functions.php",
+		"/Users/elvis/Sites/gameguru/wp-content/themes/gamesage/lib/config.php",
+		"/Users/elvis/Sites/gameguru/wp-content/themes/gamesage/base.php",
+		"/Users/elvis/Sites/gameguru/wp-content/themes/gamesage/assets/styles/main.scss",
+		"/Users/elvis/Sites/gameguru/wp-content/themes/gameguru_wst/header.php",
+		"/Users/elvis/Sites/gameguru/wp-content/themes/gameguru_wst/library/custom-post-type.php",
+		"/Users/elvis/Sites/gameguru/wp-content/themes/gameguru_wst/archive-custom_type.php",
+		"/Users/elvis/Documents/work/Mikey/HACKED/wp-settings.php",
+		"/Users/elvis/Documents/work/NATHANjones/HSA/10th october/hascatthree/content-eventpapers.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/archive.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/upw/homeideas.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/upw/ideas-side.php",
+		"/Users/elvis/Sites/fdsd/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php",
+		"/Users/elvis/Sites/fdsd/wp-content/plugins/ultimate-posts-widget/templates/legacy.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/scss/breakpoints/_1030up.scss",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/search-filter/results.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/style.css",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/custom-post-type.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/upw/events.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/search.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/archive-event.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/scss/breakpoints/_768up.scss",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/scss/breakpoints/_base.scss",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/404.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/page.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/functions.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/page-ideas-in-action.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/index.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/content.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/scss/modules/_forms.scss",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/scss/partials/_variables.scss",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/taxonomy-custom_cat.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/search-ideas.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/bones.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/header.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/archive-publication.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/single.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/archive-custom_type.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/front-page.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/comments.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/upw/events-old.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/sidebar.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/search-filter/results-old.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/search-filter/603 copy.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/page-custom.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/scss/partials/_grid.scss",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/search-ideas copy.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/search-filter/603.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/scss/partials/_typography.scss",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/scss/ie.scss",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/scss/modules/_buttons.scss",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/footer.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/scss/editor-style.scss",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/single-post-widget.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/css/editor-style.css",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/css/style.css",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/eddiemachado-bones-611c04e/page-ideas-in-action.php",
+		"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library/scss/style.scss",
+		"/Users/elvis/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/elvis/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/lib/compass/frameworks.rb"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/elvis/Sites/pathology/content/themes/tppsage, *.scss",
+			"/Users/elvis/Sites/pathology/content/themes/tppsage",
+			"/Users/elvis/Sites/citizend/wp-content/themes/citizensage",
+			"/Users/elvis/Sites/citizend/wp-content/themes/citizensage, *.php",
+			"*.php,/Users/cat/Sites/",
+			"*.scss,/Users/cat/Sites/",
+			"*.php,/Users/cat/Sites/gameguru/wp-content/themes/gamesage",
+			"/Users/elvis/Sites/gameguru/wp-content/themes/gamesage, *.php",
+			"/Users/elvis/Sites, *.php",
+			"/Users/elvis/Sites/gameguru/wp-content/themes/gamesage",
+			"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones",
+			"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones/library",
+			"/Users/elvis/Sites/fdsd/wp-content/themes/fdsd-bones"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hook-navbar-nav-active",
+			"redirect",
+			"wp_redirect",
+			"li",
+			"panel",
+			"&gt;",
+			"uk-slide-top-fix",
+			"dr",
+			"nav-navbar-hover-background",
+			"dark",
+			"oven",
+			"container",
+			"gutter",
+			"padding",
+			"gutter",
+			"a",
+			"pagenav",
+			"hover",
+			"#breadcrumbs",
+			"breadcrumbs",
+			"pagenav",
+			"uk-panel-box-primary",
+			".uk-panel-box-primary",
+			"box-sizing",
+			"people",
+			"person",
+			"$navbar-background",
+			"uikit",
+			"autocomplete",
+			"accordian",
+			"wiredep",
+			"accordion",
+			"  define(\"uikit\", function(){",
+			"uglify",
+			"components",
+			"bowerrc",
+			"pre_option_link_manager_enabled",
+			"dark​en(",
+			"dark​en(​",
+			"the_posts_navigation",
+			"gameloop",
+			"theloop",
+			"Searching",
+			"the_posts_navigation",
+			"set_query_var(",
+			"http_build_query",
+			"$line-height-computed",
+			"list-unstyled",
+			"{",
+			"pure",
+			"excerpt",
+			"upw_wp_query_args",
+			"$upw_query",
+			"upw_query",
+			"page-title",
+			"page-ti",
+			"ideas",
+			"footer",
+			"hent",
+			"menu",
+			"url(",
+			"url{",
+			"comment_form",
+			"comment",
+			"comments",
+			"htmlspecialchars",
+			"comment",
+			"comment_form_default_fields",
+			"comment",
+			"_wp_unfiltered_html_comment_disabled",
+			"comment",
+			"nav",
+			" the_excerpt",
+			" echo get_the_excerpt",
+			"bones_excerpt_more",
+			"excerpt",
+			"the_excerpt(",
+			" the_excerpt(",
+			"the_tags( '<p",
+			"'Tags:', 'bonestheme'",
+			"the_tags",
+			"get_the_term_list( $post->ID, 'topics', 'Topics: ', ', ' )",
+			"excerpt",
+			"[...",
+			"excerpt",
+			"excerpt_more",
+			"read more",
+			"searchandfilter",
+			"search",
+			"searchand",
+			"class",
+			"</i>",
+			"<i class",
+			"<?php\n/**\n * Ideas in Action - ultimate posts widget template\n *\n * @version     2.0.0\n */\n?>\n\n<?php if ($instance['before_posts']) : ?>\n  <div class=\"upw-before\">\n    <?php echo wpautop($instance['before_posts']); ?>\n  </div>\n\n\n\n<?php endif; ?>\n\n<div class=\"upw-posts hfeed\">\n\n<?php\n// global $upw_query;\nglobal $query_string;\nprint_r($upw_query->query_vars);\n\n$args = array_merge( $upw_query->query_vars, array(\n      'meta_key' => 'featured_idea',\n      'meta_value' => 'fetured',\n\n\n ));\n\n//$upw_query = query_posts($args); \n\n?>\n\n  <?php if ($upw_query->have_posts()) : ?>\n\n      <?php while ($upw_query->have_posts()) : $upw_query->the_post(); ?>\n\n        <?php $current_post = ($post->ID == $current_post_id && is_single()) ? 'active' : ''; ?>\n\n        <article <?php post_class(array($current_post, 'm-all', 'd-1of2', 't-1of2')); ?> >\n\n          <header>\n\n            <?php if (current_theme_supports('post-thumbnails') && $instance['show_thumbnail'] && has_post_thumbnail()) : ?>\n              <div class=\"entry-image\">\n                <a href=\"<?php the_permalink(); ?>\" rel=\"bookmark\">\n                  <?php the_post_thumbnail($instance['thumb_size']); ?>\n                </a>\n              </div>\n            <?php endif; ?>\n\n            <div class=\"ideabox\">\n              <h3 class=\"entry-title\">\n                <a href=\"<?php the_permalink(); ?>\" rel=\"bookmark\">\n                  <i class=\"fa fa-leaf\"></i><?php the_title(); ?>\n                </a>\n              </h3>\n            </div>\n\n            <?php if ($instance['show_date'] || $instance['show_author'] || $instance['show_comments']) : ?>\n\n              <div class=\"entry-meta\">\n\n                <?php if ($instance['show_date']) : ?>\n                  <time class=\"published\" datetime=\"<?php echo get_the_time('c'); ?>\"><?php echo get_the_time($instance['date_format']); ?></time>\n                <?php endif; ?>\n\n                <?php if ($instance['show_date'] && $instance['show_author']) : ?>\n                  <span class=\"sep\"><?php _e('|', 'upw'); ?></span>\n                <?php endif; ?>\n\n                <?php if ($instance['show_author']) : ?>\n                  <span class=\"author vcard\">\n                    <?php echo __('By', 'upw'); ?>\n                    <a href=\"<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>\" rel=\"author\" class=\"fn\">\n                      <?php echo get_the_author(); ?>\n                    </a>\n                  </span>\n                <?php endif; ?>\n\n                <?php if ($instance['show_author'] && $instance['show_comments']) : ?>\n                  <span class=\"sep\"><?php _e('|', 'upw'); ?></span>\n                <?php endif; ?>\n\n                <?php if ($instance['show_comments']) : ?>\n                  <a class=\"comments\" href=\"<?php comments_link(); ?>\">\n                    <?php comments_number(__('No comments', 'upw'), __('One comment', 'upw'), __('% comments', 'upw')); ?>\n                  </a>\n                <?php endif; ?>\n\n              </div>\n\n            <?php endif; ?>\n\n          </header>\n\n          <?php if ($instance['show_excerpt']) : ?>\n            <div class=\"entry-summary\">\n              <p>\n                <?php echo get_the_excerpt(); ?>\n                <?php if ($instance['show_readmore']) : ?>\n                  <a href=\"<?php the_permalink(); ?>\" class=\"more-link\"><?php echo $instance['excerpt_readmore']; ?></a>\n                <?php endif; ?>\n              </p>\n            </div>\n          <?php elseif ($instance['show_content']) : ?>\n            <div class=\"entry-content\">\n              <?php the_content() ?>\n            </div>\n          <?php endif; ?>\n\n          <footer>\n\n            <?php\n            $categories = get_the_term_list($post->ID, 'category', '', ', ');\n            if ($instance['show_cats'] && $categories) :\n            ?>\n              <div class=\"entry-categories\">\n                <strong class=\"entry-cats-label\"><?php _e('Posted in', 'upw'); ?>:</strong>\n                <span class=\"entry-cats-list\"><?php echo $categories; ?></span>\n              </div>\n            <?php endif; ?>\n\n            <?php\n            $tags = get_the_term_list($post->ID, 'post_tag', '', ', ');\n            if ($instance['show_tags'] && $tags) :\n            ?>\n              <div class=\"entry-tags\">\n                <strong class=\"entry-tags-label\"><?php _e('Tagged', 'upw'); ?>:</strong>\n                <span class=\"entry-tags-list\"><?php echo $tags; ?></span>\n              </div>\n            <?php endif; ?>\n\n            <?php if ($custom_fields) : ?>\n              <?php $custom_field_name = explode(',', $custom_fields); ?>\n              <div class=\"entry-custom-fields\">\n                <?php foreach ($custom_field_name as $name) :\n                  $name = trim($name);\n                  $custom_field_values = get_post_meta($post->ID, $name, true);\n                  if ($custom_field_values) : ?>\n                    <div class=\"custom-field custom-field-<?php echo $name; ?>\">\n                      <?php\n                      if (!is_array($custom_field_values)) {\n                        echo $custom_field_values;\n                      } else {\n                        $last_value = end($custom_field_values);\n                        foreach ($custom_field_values as $value) {\n                          echo $value;\n                          if ($value != $last_value) echo ', ';\n                        }\n                      }\n                      ?>\n                    </div>\n                  <?php endif;\n                endforeach; ?>\n              </div>\n            <?php endif; ?>\n\n          </footer>\n\n        </article>\n\n      <?php endwhile; ?>\n\n  <?php else : ?>\n\n    <p class=\"upw-not-found\">\n      <?php _e('No posts found.', 'upw'); ?>\n    </p>\n\n  <?php endif; ?>\n\n</div>\n\n<?php if ($instance['after_posts']) : ?>\n  <div class=\"upw-after\">\n    <?php echo wpautop($instance['after_posts']); ?>\n  </div>\n<?php endif; ?>",
+			"array_merge",
+			"mini",
+			"widget",
+			"word-wrap",
+			"images/",
+			"footer",
+			"bones-thumb-600",
+			"$content_width",
+			"set_post_thumbnail_size",
+			"pale",
+			"read",
+			"ol",
+			"body#tinymce.wp-editor ol",
+			"ol",
+			".hentry",
+			".hentry header",
+			"comment_form",
+			"comment_form()",
+			"Leave a Reply",
+			"Leave a Reply ",
+			"comments_template",
+			"icon",
+			"select",
+			"input",
+			"earch",
+			"register_nav_menus",
+			"main-nav",
+			"template",
+			"require"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			">",
+			"jargon",
+			"$upw_query2",
+			" echo get_the_excerpt",
+			" the_excerpt",
+			" echo get_the_excerpt(",
+			"'Keywords:', 'bonestheme'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"tppsage/templates/page-header.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true
+}
