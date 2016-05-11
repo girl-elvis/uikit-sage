@@ -15,7 +15,9 @@ $sage_includes = [
   'lib/setup.php',     // Theme setup
   'lib/titles.php',    // Page titles
   'lib/wrapper.php',   // Theme wrapper class
-  'lib/customizer.php' // Theme customizer
+  'lib/customizer.php', // Theme customizer
+  'lib/uikit-menu-walker.php',   // Walker class for uikit
+  //'lib/uikit-menu-walker-offcanvas.php'  // Walker class for uikit
 ];
 
 foreach ($sage_includes as $file) {
