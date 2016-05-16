@@ -6,8 +6,43 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:         #C34A17; // TPP Orange
+$brand-primary:         #009356; // Dk green
 
 
 
+// Lemon Tree new colours
+// #009356 // Dk Green
+$brand-dark: #004A16 ;
 
+$brand-colour1: #1EC0DA; // blue
+$brand-colour2: #C15D25; // brick
+
+$brand-colour3: #CA9182; // salmon
+$brand-colour4: #7ACFE1; // lt blue
+$brand-colour5: #ACD08B; // lt green
+$brand-colour6: #FECA7D; // lt orange
+$brand-colour7: #5DB2C5; // duller blue
+$brand-colour8: #FDB813; // bright orange
+$brand-colour9: #C15A88; // pink
+
+$brand-dark1: #043274; // dk blue
+
+
+ $navbar-background:                              transparent;
+// $navbar-color:                                   #444 !default;
+ $navbar-link-color:                              #eee;
+// $navbar-link-hover-color:                        #059 !default;
+
+$navbar-nav-height:                              auto;
+$navbar-nav-line-height:                         1.5em;
+// $navbar-nav-padding-horizontal:                  15px !default;
+ $navbar-nav-color:                               #eee !default;
+$navbar-nav-font-size: 18px	;
+// $navbar-nav-font-weight:                         normal !default;
+// $navbar-nav-font-family:                         "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+// $navbar-nav-hover-background:                    #f5f5f5 !default;
+// $navbar-nav-hover-color:                         #444 !default;
+// $navbar-nav-onclick-background:                  #ddd !default;
+// $navbar-nav-onclick-color:                       #444 !default;
+// $navbar-nav-active-background:                   #f5f5f5 !default;
+// $navbar-nav-active-color:                        #444 !default;

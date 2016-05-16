@@ -13,5 +13,6 @@ $global-link-hover-color: #a83f13;
 
 
 .container{
-	@extend .uk-container;
+	 @extend .uk-container;
+	 @extend .uk-container-center;
 }
