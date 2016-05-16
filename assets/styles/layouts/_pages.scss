@@ -2,6 +2,31 @@
 	.page-header{
 		@extend .uk-hidden;
 	}
+	.middle {
+	    display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: flex-start;
+	    align-content: stretch;
+	    align-items: flex-start;
+
+		li{
+			flex: 1 1 auto;
+			//width: 0;
+			background: blue;
+			&:nth-of-type(2) {
+				flex: 0 1 500px;
+			}
+			img{width: 100%}
+		}
+		
+	
+
+	}
+
+
+
+
 	.menu-what-is-container{
 		clear: both;
 		li {

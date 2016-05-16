@@ -17,16 +17,19 @@
 
     }
 
-
-
-
-
-
-
     ?>
 
+<div><ul class="middle uk-grid uk-grid-collapse uk-grid-width-medium-1-3 uk-grid-match" data-uk-grid-match="{target:'.pictureb'}">
+<li ><div class="pictureb"></div></li>
+<li ><div class="pictureb"><img src="http://lemontree/wp-content/uploads/2016/05/small-soil-image.jpg"></div></li>
+<li ><div class="pictureb"></div></li>
+</ul></div>
+
+
+
+
     <div class="menu-what-is-container">
-    	<ul id="menu-what-is" class="uk-grid uk-grid-matchz uk-grid-width-large-1-3" data-uk-grid-match="{target:'.uk-overlayz'}">
+    	<ul id="menu-what-is" class="uk-grid uk-grid-small uk-grid-matchz uk-grid-width-medium-1-3" data-uk-grid-match="{target:'.uk-overlayz'}">
     		<li ><div class="picturebox"><div class="" ><a  class="uk-h2"  data-uk-toggle="{target:'.definition1', animation:'uk-animation-fade'}" >Greening innovation <i class="uk-icon-arrow-circle-down"></i></a> 
     		<div class="definition1 uk-hidden"><p>
     			is change; a breathing, growing, living process that makes our landscapes and living spaces ecologically resilient and sustainable. 
