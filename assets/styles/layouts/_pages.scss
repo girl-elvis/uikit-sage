@@ -18,11 +18,13 @@
 					color: #FFF;
 					a{
 						text-decoration: none;
-						font-size: x-large;
+						
 						color: #fff;
 						background: $brand-colour2;
 						padding: 0.2em;
+						display: block;
 						&:hover { background: $brand-colour8; color: black;}
+						i{float: right;}
 					}
 					//.definition{padding-top: 0.4em;}
 				}

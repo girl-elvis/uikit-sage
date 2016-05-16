@@ -26,8 +26,8 @@
     ?>
 
     <div class="menu-what-is-container">
-    	<ul id="menu-what-is" class="uk-grid uk-grid-matchz uk-grid-width-1-3" data-uk-grid-match="{target:'.uk-overlayz'}">
-    		<li ><div class="picturebox"><div class="" ><a  class=""  data-uk-toggle="{target:'.definition1'}" >Greening innovation</a> 
+    	<ul id="menu-what-is" class="uk-grid uk-grid-matchz uk-grid-width-large-1-3" data-uk-grid-match="{target:'.uk-overlayz'}">
+    		<li ><div class="picturebox"><div class="" ><a  class="uk-h2"  data-uk-toggle="{target:'.definition1', animation:'uk-animation-fade'}" >Greening innovation <i class="uk-icon-arrow-circle-down"></i></a> 
     		<div class="definition1 uk-hidden"><p>
     			is change; a breathing, growing, living process that makes our landscapes and living spaces ecologically resilient and sustainable. 
     			</p><p>It uses environmentally friendly, climate-smart technologies and practices to grow food, plant trees, produce energy, and to convert our wastes into resources using productive closed- loop systems that actually build rather than exploit their natural resources base. 
@@ -38,7 +38,7 @@
 			<li >
 				<div class="picturebox">
 					<div class="" >
-						<a  class=""  data-uk-toggle="{target:'.definition2'}" >Urban agriculture</a>
+						<a  class="uk-h2"  data-uk-toggle="{target:'.definition2', animation:'uk-animation-fade'}" >Urban agriculture <i class="uk-icon-arrow-circle-down"></i></a>
 						<div class="definition2 uk-hidden"><p>
     			is the growing of plants and the raising of animals within and around cities and other settlements
     		</p><p>Its most striking feature is how the practice is integrated into the urban economy and fabric itself and thus embedded in – and interacting with – the urban ecosystem. 
@@ -49,7 +49,7 @@
 
 			<li ><div class="picturebox">
 				<div class="" >
-					<a   class=""  data-uk-toggle="{target:'.definition3'}" >Forced Displacement</a>
+					<a   class="uk-h2"  data-uk-toggle="{target:'.definition3', animation:'uk-animation-fade'}" >Forced Displacement <i class="uk-icon-arrow-circle-down"></i></a>
 					<div class="definition3 uk-hidden"><p>
 					    			refers to the situations of people who leave or flee their homes due to conflict, violence, persecution or human rights violations. 
 					    				</p><p>Globally, there are now almost 20 million refugees and 40 million internally displaced persons (IDPs) – and most are hosted in developing countries. 
