@@ -45,7 +45,7 @@
 if (is_front_page()): 
   $slider = get_new_royalslider(1);
   if (strpos($slider, 'RoyalSlider Error') == false) {
-    echo $slider;
+    //echo $slider;
   }
 endif ?>
 
