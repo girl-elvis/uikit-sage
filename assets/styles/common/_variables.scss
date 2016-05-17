@@ -1,6 +1,17 @@
 // Glyphicons font path
 $icon-font-path:        "../fonts/";
 
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700&text=LEMONTRUSlemontrus);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Josefin+Sans:400,600);
+$lemontreefont: "Amatic SC",sans-serif;
+
+// IMPORTANT
+$base-body-line-height:1em;
+
+$base-body-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+$navbar-brand-font-size : 60px;
+
 // Grid settings
 $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
@@ -27,7 +38,7 @@ $brand-colour9: #C15A88; // pink
 
 $brand-dark1: #043274; // dk blue
 
-
+$navbar-brand-hover-color:  $brand-primary;
  $navbar-background:                              transparent;
 // $navbar-color:                                   #444 !default;
  $navbar-link-color:                              #eee;

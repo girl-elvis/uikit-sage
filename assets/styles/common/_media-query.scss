@@ -1,0 +1,49 @@
+
+
+
+ // ==========  Mobile First Method  ==========
+ 
+	/* Custom, iPhone Retina */
+
+ 	// @media only screen and (min-width : 320px){ 
+ 
+ 	// }
+ 
+	// /*  Small Devices, Phones */
+	// @media only screen and (min-width : 480px){ 
+	
+	// }
+
+	/* medium Devices, Tablets */
+	@media only screen and (min-width : 768px){
+		nav {
+			position: relative;
+				.tagline{
+					position: absolute;
+					bottom: 0;
+					right: 2%;
+				}
+			.uk-navbar-brand{
+				// margin-top: 0;
+				// margin-bottom: 0;
+			}
+		}
+
+	 }
+
+	
+ 	
+ 	
+	/* large Devices, Desktops */
+	@media only screen and (min-width : 992px){ 
+	
+	}
+ 
+	/* XLarge Devices, Wide Screens */
+	// @media only screen and (min-width : 1200px){ 
+	
+
+	// }
+	
+
+	

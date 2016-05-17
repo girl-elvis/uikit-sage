@@ -23,13 +23,14 @@
 <?php 
 	// check if the repeater field has rows of data
 		if( have_rows('middle') ):
-			echo  '<div><ul class="middle uk-grid uk-grid-collapse uk-grid-width-medium-1-3 uk-grid-match" data-uk-grid-match="{target:\'.pictureb\'}">';
+			echo  '<div><ul class="middle uk-grid uk-grid-collapse uk-grid-match" data-uk-grid-match="{target:\'.pictureb\'}">';
 			while ( have_rows('middle') ) : the_row();
 
 				echo  '<li ><div class="pictureb">';
 
-				 $image = wp_get_attachment_image_src(get_sub_field('image'), 'full'); ?>
-				<img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(get_sub_field('image')) ?>" />
+				 $image = wp_get_attachment_image_src(get_sub_field('image'), 'full'); 
+				 if($image)?>
+						<img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(get_sub_field('image')) ?>" />
 				<?php
 
 				echo  '</div></li>';
@@ -50,7 +51,7 @@
 	// check if the repeater field has rows of data
 		if( have_rows('definitions') ):
 ?>
-			<div class="menu-what-is-container">'
+			<div class="menu-what-is-container">
 			<ul id="menu-what-is" class="uk-grid uk-grid-small uk-grid-matchz uk-grid-width-medium-1-3" data-uk-grid-match="{target:'.uk-overlayz'}">
 
 <?php
