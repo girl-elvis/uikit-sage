@@ -37,6 +37,11 @@ $brand-colour8: #FDB813; // bright orange
 $brand-colour9: #C15A88; // pink
 
 $brand-dark1: #043274; // dk blue
+// End LT colors
+
+$base-link-color: $brand-primary;
+$base-link-hover-color: $brand-dark;
+// Nav
 
 $navbar-brand-hover-color:  $brand-primary;
  $navbar-background:                              transparent;
@@ -48,6 +53,7 @@ $navbar-nav-line-height:                         1.5em;
  $navbar-nav-color:                               #eee !default;
 $navbar-nav-font-size: 18px	;
 
+$dropdown-navbar-animation: none;
 
 $overlay-icon:  '\f0ed';
 //$dropdown-width: 0;

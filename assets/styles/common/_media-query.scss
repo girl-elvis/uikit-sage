@@ -16,6 +16,10 @@
 
 	/* medium Devices, Tablets */
 	@media only screen and (min-width : 768px){
+		.banner{
+			background: url('http://lemontree/wp-content/uploads/2016/05/DSC_1343.jpg');
+			padding-bottom: 1em;
+		}
 		nav {
 			position: relative;
 			.tagline{
@@ -28,7 +32,8 @@
 			}
 		}
 		.wrap {
-			margin: 0 1em;
+			margin: 1em;
+
 		}
 
 	 }
@@ -38,7 +43,14 @@
  	
 	/* large Devices, Desktops */
 	@media only screen and (min-width : 992px){ 
-	
+		nav .tagline{
+			bottom: 3em;
+		}
+		.wrap {
+			margin: 1em auto;
+
+		}
+		
 	}
  
 	/* XLarge Devices, Wide Screens */

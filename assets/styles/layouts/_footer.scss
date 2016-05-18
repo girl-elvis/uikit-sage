@@ -1,0 +1,12 @@
+footer {
+	background: $brand-dark;
+	margin-top: 1em;
+	> div {
+		margin:  1em;
+		section {
+			// @extend .uk-panel;
+			// @extend .uk-panel-box;
+		}
+
+	}
+}

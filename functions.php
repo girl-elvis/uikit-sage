@@ -28,3 +28,15 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+// End Sage stuff
+
+// Filter Category/Taxonomy title
+add_filter( 'get_the_archive_title', function ( $title ) {
+    if( is_category() ) {
+        $title = single_cat_title( '', false );
+    } else if( is_tax()) {
+      $title = single_term_title( '', false ) ;
+    }
+    return $title;
+
+});
