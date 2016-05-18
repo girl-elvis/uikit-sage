@@ -21,28 +21,18 @@
 
 
 <?php 
-	// check if the repeater field has rows of data
-		if( have_rows('middle') ):
-			echo  '<div><ul class="middle uk-grid uk-grid-collapse uk-grid-match" data-uk-grid-match="{target:\'.pictureb\'}">';
-			while ( have_rows('middle') ) : the_row();
+$image = get_field('mid-image');
+$size = 'large';
+if( !empty($image) ): 
 
-				echo  '<li ><div class="pictureb">';
+	echo '<div class="featured-home">';
+	echo wp_get_attachment_image( $image, $size );
+	echo '</div>';
 
-				 $image = wp_get_attachment_image_src(get_sub_field('image'), 'full'); 
-				 if($image)?>
-						<img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(get_sub_field('image')) ?>" />
-				<?php
+ endif; 
+ ?>
 
-				echo  '</div></li>';
-			endwhile;
-			echo '</ul></div>';
 
-		else :
-
-// no rows found
-
-		endif;
-?>
 
 
 
@@ -58,7 +48,7 @@
 			$i = 1;
 			while ( have_rows('definitions') ) : the_row();
 				
-				echo '<li ><div class="picturebox"><div class="" ><a  class="uk-h2"  data-uk-toggle="{target:\'.definition' . $i . '\', animation:\'uk-animation-fade\'}" >';
+				echo '<li ><div class="picturebox"><div class="" ><a href="javascript: document.body.scrollIntoView(false)" class="uk-h2"  data-uk-toggle="{target:\'.definition' . $i . '\', animation:\'uk-animation-fade\'}" >';
 				the_sub_field('question');
 	    		echo '<i class="uk-icon-arrow-circle-down"></i></a> ';
 	    		echo '<div class="definition' . $i . ' uk-hidden">';

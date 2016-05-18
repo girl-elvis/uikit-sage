@@ -21,9 +21,16 @@ nav {
 
 	}
 }
-	.mobmenu-button {
-		background: url('../images/leaf.png');
-	}
+
+.brochure img{
+	background: url('../images/booklet.jpg');
+	margin: 0 auto;
+}
+
+
+.mobmenu-button {
+	background: url('../images/leaf.png');
+}
 .nav {
 	//@extend .uk-navbar-nav;
 	@extend .uk-hidden-small;
@@ -46,16 +53,27 @@ nav {
 
 		a {
 			//display: table-caption;
-			padding-top: 12px;
-			padding-bottom: 15px;
+			
 			&:hover{
 				background: rgba($brand-primary, 0.5);
 				color: #fff;
 			}
+			
 			//@extend .uk-h2;
 		}
+		> a {
+				padding-top: 10px;
+				padding-bottom: 12px;	
+		}
+
 		
 	}
 }
-
+.uk-dropdown-small{
+	min-width: 0;
+	a {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+}
 .mobmenu-button {z-index: 100;}

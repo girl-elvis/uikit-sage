@@ -7,9 +7,11 @@ $icon-font-path:        "../fonts/";
 $lemontreefont: "Amatic SC",sans-serif;
 
 // IMPORTANT
-$base-body-line-height:1em;
+$base-body-line-height:1.5em;
 
+// Other text and font stuff
 $base-body-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+$base-h2-font-size: 25px;
 $navbar-brand-font-size : 60px;
 
 // Grid settings
@@ -18,8 +20,6 @@ $sidebar-sm-columns:    4;
 
 // Colors
 $brand-primary:         #009356; // Dk green
-
-
 
 // Lemon Tree new colours
 // #009356 // Dk Green
@@ -40,20 +40,14 @@ $brand-dark1: #043274; // dk blue
 
 $navbar-brand-hover-color:  $brand-primary;
  $navbar-background:                              transparent;
-// $navbar-color:                                   #444 !default;
+
  $navbar-link-color:                              #eee;
-// $navbar-link-hover-color:                        #059 !default;
 
 $navbar-nav-height:                              auto;
 $navbar-nav-line-height:                         1.5em;
-// $navbar-nav-padding-horizontal:                  15px !default;
  $navbar-nav-color:                               #eee !default;
 $navbar-nav-font-size: 18px	;
-// $navbar-nav-font-weight:                         normal !default;
-// $navbar-nav-font-family:                         "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-// $navbar-nav-hover-background:                    #f5f5f5 !default;
-// $navbar-nav-hover-color:                         #444 !default;
-// $navbar-nav-onclick-background:                  #ddd !default;
-// $navbar-nav-onclick-color:                       #444 !default;
-// $navbar-nav-active-background:                   #f5f5f5 !default;
-// $navbar-nav-active-color:                        #444 !default;
+
+
+$overlay-icon:  '\f0ed';
+//$dropdown-width: 0;

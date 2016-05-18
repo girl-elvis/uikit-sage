@@ -43,7 +43,7 @@ class Walker_UIKIT extends Walker {
         
         if ($this->has_children && $depth == 0) {
 
-            $output.= "$indent<div class=\"uk-dropdown uk-dropdown-navbar uk-dropdown-width-1\">\n";
+            $output.= "$indent<div class=\"uk-dropdown uk-dropdown-small uk-dropdown-navbar uk-dropdown-width-1\">\n";
             //   $output.= "$indent<div class=\"uk-grid\">\n";
             //   $output.= "$indent<div class=\"uk-width-1-1\">\n";
             $indent = "\t$indent";

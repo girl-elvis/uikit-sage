@@ -2,27 +2,38 @@
 	.page-header{
 		@extend .uk-hidden;
 	}
-	.middle {
-	    display: flex;
-	    flex-direction: row;
-	    flex-wrap: nowrap;
-	    justify-content: flex-start;
-	    align-content: stretch;
-	    align-items: flex-start;
-
-		li{
-			flex: 1 1 auto;
-			//width: 0;
-			background: blue;
-			&:nth-of-type(2) {
-				flex: 0 1 700px;
-			}
-			img{width: 100%}
+	.featured-home{
+		
+		
+		margin: 1em 0;
+		img{
+		border: 2px solid $brand-primary;	
+			display: block; 
+			margin: 0 auto;
+			padding: 0.5em;
 		}
+	}
+	// .middle {
+	//     display: flex;
+	//     flex-direction: row;
+	//     flex-wrap: nowrap;
+	//     justify-content: flex-start;
+	//     align-content: stretch;
+	//     align-items: flex-start;
+
+	// 	li{
+	// 		flex: 1 0 auto;
+	// 		//width: 0;
+	// 		background: blue;
+	// 		&:nth-of-type(2) {
+	// 			flex: 1 0 700px;
+	// 		}
+	// 		img{width: 100%}
+	// 	}
 		
 	
 
-	}
+	
 
 
 

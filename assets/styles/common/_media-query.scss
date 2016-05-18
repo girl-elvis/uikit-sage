@@ -18,15 +18,17 @@
 	@media only screen and (min-width : 768px){
 		nav {
 			position: relative;
-				.tagline{
-					position: absolute;
-					bottom: 0;
-					right: 2%;
-				}
-			.uk-navbar-brand{
-				// margin-top: 0;
-				// margin-bottom: 0;
+			.tagline{
+				position: absolute;
+				bottom: 0;
+				right: 1em;
 			}
+			.uk-navbar-brand{
+			    background: none;
+			}
+		}
+		.wrap {
+			margin: 0 1em;
 		}
 
 	 }
