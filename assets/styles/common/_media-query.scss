@@ -17,7 +17,7 @@
 	/* medium Devices, Tablets */
 	@media only screen and (min-width : 768px){
 		.banner{
-			background: url('http://lemontree/wp-content/uploads/2016/05/DSC_1343.jpg');
+			background: url('../images/sky.jpg');
 			padding-bottom: 1em;
 		}
 		nav {
@@ -32,13 +32,15 @@
 			}
 		}
 		.wrap {
-			margin: 1em;
+			margin: 0 1em;
 
+		}
+		.home .featured-home{
+			min-height: 600px;
 		}
 
 	 }
 
-	
  	
  	
 	/* large Devices, Desktops */
@@ -47,10 +49,10 @@
 			bottom: 3em;
 		}
 		.wrap {
-			margin: 1em auto;
+			margin: 0 auto;
 
 		}
-		
+
 	}
  
 	/* XLarge Devices, Wide Screens */

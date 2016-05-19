@@ -3,11 +3,18 @@ $icon-font-path:        "../fonts/";
 
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700&text=LEMONTRUSlemontrus);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Josefin+Sans:400,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600|Josefin+Sans:400,600);
 $lemontreefont: "Amatic SC",sans-serif;
 
 // IMPORTANT
 $base-body-line-height:1.5em;
+
+
+// Container widths
+$utility-container-padding-horizontal:           75px ;
+
+$utility-container-large-padding-horizontal: 45px;
+
 
 // Other text and font stuff
 $base-body-font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -41,6 +48,7 @@ $brand-dark1: #043274; // dk blue
 
 $base-link-color: $brand-primary;
 $base-link-hover-color: $brand-dark;
+
 // Nav
 
 $navbar-brand-hover-color:  $brand-primary;
@@ -54,6 +62,9 @@ $navbar-nav-line-height:                         1.5em;
 $navbar-nav-font-size: 18px	;
 
 $dropdown-navbar-animation: none;
+// $dropdown-background: rgba(#fff, 0.6);
+// $dropdown-navbar-background: rgba(#fff, 0.6);
+
 
 $overlay-icon:  '\f0ed';
 //$dropdown-width: 0;

@@ -8,15 +8,10 @@
         <nav class="uk-offcanvas-bar uk-offcanvas-bar-flip">
           <?php
           if (has_nav_menu('primary_navigation')) :
-            wp_nav_menu(['theme_location' => 'primary_navigation', 'items_wrap' => '<ul class="uk-nav uk-nav-offcanvas" data-uk-nav>%3$s</ul>']);
+            wp_nav_menu(['theme_location' => 'primary_navigation', 'items_wrap' => '<ul class="uk-nav uk-nav-offcanvas" data-uk-nav>%3$s</ul>', 'depth' => 1]);
           endif;
           ?>
     
-          <?php
-          if (has_nav_menu('right_navigation')) :
-            wp_nav_menu(['theme_location' => 'right_navigation',  'items_wrap' => '<ul class="uk-nav uk-nav-offcanvas" data-uk-nav>%3$s</ul>']);
-          endif;
-          ?>
         </nav>
   
       </div>

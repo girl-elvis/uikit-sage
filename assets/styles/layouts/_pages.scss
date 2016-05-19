@@ -3,9 +3,10 @@
 		@extend .uk-hidden;
 	}
 	.featured-home{
+		min-height: 500px;
 		
-		
-		margin: 1em 0;
+		margin: 0 auto;
+		margin-bottom: 1em;
 		img{
 		border: 2px solid $brand-primary;	
 			display: block; 
@@ -31,18 +32,12 @@
 	// 		img{width: 100%}
 	// 	}
 		
-	
-
-	
-
-
-
 
 	.menu-what-is-container{
 		clear: both;
 		li {
 			.picturebox {
-			  background-image: url("http://lemontree/wp-content/uploads/2016/05/small-soil-image.jpg");
+			  //background-image: url("http://lemontree/wp-content/uploads/2016/05/small-soil-image.jpg");
 				width: 100%;
 				//height: 370px;
 				background-size: cover;
@@ -68,7 +63,7 @@
 
 			&:nth-of-type(2) {
 				.picturebox {
-				  background-image: url("http://lemontree/wp-content/uploads/2016/05/DSC_1242.jpg");
+				  //background-image: url("http://lemontree/wp-content/uploads/2016/05/DSC_1242.jpg");
 				  > div{
 						background: rgba($brand-primary,0.5);
 						a{
@@ -81,7 +76,7 @@
 			}
 			&:nth-of-type(3) {
 				.picturebox{
-				  background-image: url("http://lemontree/wp-content/uploads/2016/05/DSC_1875.jpg");
+				  //background-image: url("http://lemontree/wp-content/uploads/2016/05/DSC_1875.jpg");
 				  > div{
 						background: rgba($brand-colour7,0.5);
 						a{
@@ -108,3 +103,7 @@ $class-def: definition !default;
      {padding-top: 0.6em;}
 }
   
+
+.page .main p:first-of-type{
+	font-weight: 600;
+}

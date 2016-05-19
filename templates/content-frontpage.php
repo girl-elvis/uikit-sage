@@ -1,38 +1,48 @@
 <?php the_content(); ?>
 
 <?php 
-  $menu = 'What Is';
-  $menuParameters = array(  
-    'echo' => false, 
-    'container' => 'div',
-    'menu_class' => 'uk-grid uk-grid-width-1-3',
-    'before' => '<div class="uk-overlay uk-overlay-background"><div class="uk-overlay-panel uk-overlay-top" >',
-    'after' => '</div></div>',
-    // 'link_class' => 'uk-overlay-panel',
-    'walker' => new Walker_UIKIT()
-  );  
-  $menuParameters['menu'] = $menu;
-    if (wp_get_nav_menu_object($menu)) {
-     //echo (wp_nav_menu( $menuParameters ) );
+  // $menu = 'What Is';
+  // $menuParameters = array(  
+  //   'echo' => false, 
+  //   'container' => 'div',
+  //   'menu_class' => 'uk-grid uk-grid-width-1-3',
+  //   'before' => '<div class="uk-overlay uk-overlay-background"><div class="uk-overlay-panel uk-overlay-top" >',
+  //   'after' => '</div></div>',
+  //   // 'link_class' => 'uk-overlay-panel',
+  //   'walker' => new Walker_UIKIT()
+  // );  
+  // $menuParameters['menu'] = $menu;
+  //   if (wp_get_nav_menu_object($menu)) {
+  //    //echo (wp_nav_menu( $menuParameters ) );
 
-    }
+  //   }
 
     ?>
 
 
 <?php 
+	echo '<div class="featured-home" style="';
+
+$bgimage = get_field('mid-background');
+if( !empty($bgimage) ): 
+	//$image_url = $bgimage['sizes']['full'];
+	echo ('background-image:url(' . $bgimage['url'] . ')') ;
+	echo '">';
+ endif; 
+
+
+
 $image = get_field('mid-image');
 $size = 'large';
 if( !empty($image) ): 
 
-	echo '<div class="featured-home">';
 	echo wp_get_attachment_image( $image, $size );
 	echo '</div>';
 
  endif; 
+
+ echo '</div>';
  ?>
-
-
 
 
 
@@ -47,8 +57,14 @@ if( !empty($image) ):
 <?php
 			$i = 1;
 			while ( have_rows('definitions') ) : the_row();
-				
-				echo '<li ><div class="picturebox"><div class="" ><a href="javascript: document.body.scrollIntoView(false)" class="uk-h2"  data-uk-toggle="{target:\'.definition' . $i . '\', animation:\'uk-animation-fade\'}" >';
+				$image = get_sub_field('image');
+				echo '<li ><div class="picturebox" style="';
+				if( !empty($image) ): 
+					$image_url = $image['sizes']['definition'];
+					echo ('background-image:url(' . $image_url . ')') ;
+				endif;
+
+				echo '"><div class="" ><a href="#" onclick="setTimeout(function(){if (screen.width > 400){this.parentNode.parentNode.scrollIntoView(false)}},2000)" class="uk-h2"  data-uk-toggle="{target:\'.definition' . $i . '\', animation:\'uk-animation-fade\'}" >';
 				the_sub_field('question');
 	    		echo '<i class="uk-icon-arrow-circle-down"></i></a> ';
 	    		echo '<div class="definition' . $i . ' uk-hidden">';
