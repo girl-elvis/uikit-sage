@@ -9,9 +9,7 @@
   height: auto;
 }
 .aligncenter {
-  display: block;
-  //margin: ($line-height-computed / 2) auto;
-  height: auto;
+	@extend .uk-align-center;
 }
 .alignleft,
 .alignright {
@@ -19,11 +17,30 @@
   height: auto;
 }
 
+
+.alignleft{
+	 @extend .uk-float-left;
+    @extend .uk-margin-right;
+}
+.alignright{
+	 @extend .uk-float-right;
+    @extend .uk-margin-left;
+}
+
+
+figcaption {
+	font-size: small;
+	background: #eee none repeat scroll 0% 0%;
+	padding: 0.5em;
+}
+
+
 // NEED TO REDO THIS WITH UIkit
-// @media (min-width: $screen-sm-min) {
+// @media (min-width: $breakpoint-medium) {
 //   // Only float if not on an extra small device
 //   .alignleft {
-//     float: left;
+//     @extend .uk-float-left;
+//     @extend .uk-margin-right;
 //     //margin-right: ($line-height-computed / 2);
 //   }
 //   .alignright {

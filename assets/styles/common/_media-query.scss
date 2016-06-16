@@ -14,52 +14,56 @@
 	
 	// }
 
-	/* medium Devices, Tablets */
-	@media only screen and (min-width : 768px){
-		.banner{
-			background: url('../images/sky.jpg');
-			padding-bottom: 1em;
+/* medium Devices, Tablets */
+@media only screen and (min-width : 768px){
+	.banner{
+		background: url('../images/sky.jpg');
+		padding-bottom: 1em;
+	}
+	nav {
+		position: relative;
+		.tagline{
+			position: absolute;
+			bottom: 0;
+			right: 1em;
 		}
-		nav {
-			position: relative;
-			.tagline{
-				position: absolute;
-				bottom: 0;
-				right: 1em;
-			}
-			.uk-navbar-brand{
-			    background: none;
-			}
+		.uk-navbar-brand{
+		    background: none;
 		}
-		.wrap {
-			margin: 0 1em;
-
-		}
-		.home .featured-home{
-			min-height: 600px;
-		}
-
-	 }
-
- 	
- 	
-	/* large Devices, Desktops */
-	@media only screen and (min-width : 992px){ 
-		nav .tagline{
-			bottom: 3em;
-		}
-		.wrap {
-			margin: 0 auto;
-
-		}
+	}
+	.wrap {
+		margin: 0 1em;
 
 	}
- 
-	/* XLarge Devices, Wide Screens */
-	// @media only screen and (min-width : 1200px){ 
 	
+ }
 
-	// }
+ 	
+ 	
+/* large Devices, Desktops */
+@media only screen and (min-width : 992px){ 
+	nav .tagline{
+		bottom: 3em;
+	}
+	.wrap {
+		margin: 0 auto;
+
+	}
+
+}
+
+@media only screen and (min-width : 992px) and (min-height: 900px){ 
+	.home .featured-home{
+		min-height: 600px;
+	}
+}
+ 
+// /* XLarge Devices, Wide Screens */
+// @media only screen and (min-width : 1200px){ 
+
+
+
+//  }
 	
 
 	

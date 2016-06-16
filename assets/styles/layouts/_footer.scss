@@ -1,6 +1,8 @@
 footer {
-	background: $brand-dark;
-	margin-top: 1em;
+	//background: $brand-dark;
+	padding: 1em;
+	margin-top: 5em;
+	border-top: 5px solid $brand-dark;
 	> div {
 		margin:  1em;
 		section {
